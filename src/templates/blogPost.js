@@ -18,7 +18,7 @@ export default function Template({ data }) {
           marginTop: "50px",
         }}
       >
-        Back to blogs
+        Back to other thoughts
       </Link>
       <h1
         style={{

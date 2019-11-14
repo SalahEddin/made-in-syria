@@ -2,11 +2,11 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import BlogSquare from "../components/blogSquare"
-import { Link } from "gatsby"
+import SEO from "../components/seo"
 
 const ThoughtsPage = ({ data }) => (
   <Layout>
-    <h1>I like to type</h1>
+    <SEO title="Blog" />
     {data.allMarkdownRemark.edges.map(post => (
       <BlogSquare
         key={post.node.id}
