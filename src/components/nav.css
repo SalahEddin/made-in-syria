@@ -1,0 +1,24 @@
+li {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 15px 0px 15px 30px;
+}
+    
+.nav {
+  height: 100%;
+  display: flex;
+  margin: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__list > li {
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
