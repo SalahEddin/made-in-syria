@@ -6,12 +6,25 @@ const Nav = () => (
   <nav className="nav">
     <ul className="nav__list">
       <li>
-        <Link className="nav__link" activeStyle={{textDecoration: 'underline'}} to="/">Home</Link>
-        <br/>
-        <Link className="nav__link" activeStyle={{textDecoration: 'underline'}} to="/thoughts">Thoughts</Link>
+        <Link
+          className="nav__link"
+          activeStyle={{ textDecoration: "underline" }}
+          to="/"
+        >
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link
+          className="nav__link"
+          activeStyle={{ textDecoration: "underline" }}
+          to="/thoughts"
+        >
+          Thoughts
+        </Link>
       </li>
     </ul>
   </nav>
-);
+)
 
 export default Nav

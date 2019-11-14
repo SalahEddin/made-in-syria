@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-import Nav from './nav';
+import Nav from "./nav"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,16 +30,16 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: "100%",
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
         }}
       >
-        <Nav/>
-        <main>{children}</main>
-        <footer>
-          🐐 {new Date().getFullYear()}, Salah Eddin Alshaal
-        </footer>
+        <div className="main__div">
+          <Nav className="nav__part" />
+          <main className="main__part">{children}</main>
+        </div>
+        <footer>🐐 {new Date().getFullYear()}, Salah Eddin Alshaal</footer>
       </div>
     </>
   )
