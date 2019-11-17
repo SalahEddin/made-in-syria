@@ -3,14 +3,24 @@
     display: flex;
     margin-bottom: 50px;
     flex-direction: column;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #efefef;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #121210;
   }
-  
+ 
+  a {
+    color: #121210;
+  }
+
+  a:visited {
+    color: #121210;
+  }
+
   .blogSquare__title {
     font-weight: 200;
     margin: 0;
     font-size: 1.5em;
+    color: #121210;
+    font-weight: bold;
   }
   
   .blogSquare__date {
