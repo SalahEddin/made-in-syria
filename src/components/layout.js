@@ -14,6 +14,8 @@ import "./layout.css"
 import Nav from "./nav"
 
 const Layout = ({ children }) => {
+  document.body.style.backgroundColor = "#F6EACE";
+  
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
