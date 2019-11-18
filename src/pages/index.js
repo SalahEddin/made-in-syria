@@ -4,13 +4,18 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import ProfileImage from "../images/profile.png"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Salah Eddin Alshaal Blog" />
-    <h1>Hi people</h1>
-    <p>Welcome to my new blog.</p>
-    <p>This is a space where I share my thoughts, random at glance, not so much up close 🤓.</p>
+    <img src={ProfileImage} style={{width: "5rem"}}></img>
+    <h1>Salah Eddin Alshaal</h1>
+    <h2>It's dangerous to go alone. Use this collective agency.</h2>
+    <h3>Originally from Syria but have lived in Cyprus and currently in the Netherlands. 
+      I am a software engineer focusing on the web. when I'm not writing code, I am doing everything else except washing my dishes
+    </h3>
+    <p>This is a space where I share anything I feel 🤓.</p>
   </Layout>
 )
 
