@@ -1,0 +1,12 @@
+.header {
+    background: #E9ADA7;
+    margin-bottom: 1.45rem;
+    border-bottom: 3px solid #121210;
+    display: flex;
+    justify-content: left;
+}
+
+.header__title {
+    color: #121210;
+    text-decoration: none;
+}
