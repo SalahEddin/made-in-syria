@@ -12,7 +12,7 @@ const BlogSquare = ({ title, date, path, description }) => (
       <h2 className="blogSquare__title">{title}</h2>
       <p className="blogSquare__date">{date}</p>
       <p>{description}</p>
-      <p style={{ fontSize: '.8em', textDecoration: 'underline' }}>Read more</p>
+      <p className="blogSquare__readMore">Read more</p>
     </Link >
   </section >
 )
