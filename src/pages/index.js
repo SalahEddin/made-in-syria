@@ -9,7 +9,7 @@ import ProfileImage from "../images/profile.png"
 const IndexPage = () => (
   <Layout>
     <SEO title="Salah Eddin Alshaal Blog" />
-    <img src={ProfileImage} style={{width: "5rem"}}></img>
+    <img src={ProfileImage} style={{width: "5rem", padding: "0.8rem", "margin": 0}}></img>
     <h1>Salah Eddin Alshaal</h1>
     <h2>It's dangerous to go alone. Use this collective agency.</h2>
     <h3>Originally from Syria but have lived in Cyprus and currently in the Netherlands. 
