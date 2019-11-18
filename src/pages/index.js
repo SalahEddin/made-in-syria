@@ -13,9 +13,9 @@ const IndexPage = () => (
     <h1>Salah Eddin Alshaal</h1>
     <h2>It's dangerous to go alone. Use this collective agency.</h2>
     <h3>Originally from Syria but have lived in Cyprus and currently in the Netherlands. 
-      I am a software engineer focusing on the web. when I'm not writing code, I am doing everything else except washing my dishes
+      I am a software engineer focusing on the web. when I'm not writing code, I am doing everything else except washing my dishes.
     </h3>
-    <p>This is a space where I share anything I feel 🤓.</p>
+    <p>This is a space where I share anything I feel 🤓. Probably about the environemnt, philosophy and light politics</p>
   </Layout>
 )
 
