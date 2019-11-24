@@ -1,12 +1,15 @@
 .header {
-    background: #E9ADA7;
-    margin-bottom: 1.45rem;
-    border-bottom: 3px solid #121210;
-    display: flex;
-    justify-content: left;
+  background: #e9ada7;
+  margin-bottom: 1.45rem;
+  border-bottom: 3px solid #121210;
+  background-color: #e9ada7;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 200;
 }
 
 .header__title {
-    color: #121210;
-    text-decoration: none;
+  color: #121210;
+  text-decoration: none;
 }

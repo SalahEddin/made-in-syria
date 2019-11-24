@@ -1,0 +1,28 @@
+.post__div {
+  max-width: 40em;
+}
+
+.date__text {
+  font-size: 1em;
+  color: #121210;
+  font-weight: 400;
+}
+
+.post__div > p {
+  color: black;
+}
+
+blockquote > p {
+  color: #121210;
+  font-style: italic;
+}
+
+/* Combining the following two WILL NOT WORK because the broswer 
+    ignores the whole selection if it doesn't understand part of it */
+
+.post__div > p::selection {
+  background: #ffb7b7;
+}
+.post__div > p::-moz-selection {
+  background: #ffb7b7;
+}

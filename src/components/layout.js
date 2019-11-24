@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <div className="main__div">
+        <div className="main__content">
           <Nav className="nav__part" />
           <main className="main__part">{children}</main>
         </div>
