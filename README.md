@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/21b8f068-1f41-4399-841f-ec7204bf32b9/deploy-status)](https://app.netlify.com/sites/made-in-syria/deploys)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
