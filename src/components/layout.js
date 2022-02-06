@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
           <Nav className="nav__part" />
           <main className="main__part">{children}</main>
         </div>
-        <footer>🐐 {new Date().getFullYear()}, Salah Eddin Alshaal</footer>
+        <footer>🐐 {new Date().getFullYear()}, Salah Eddin Alshaal, you can reach me on salshaal [@] gmail [.] com</footer>
       </div>
     </>
   )
